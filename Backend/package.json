@@ -1,0 +1,30 @@
+{
+  "name": "node-js-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon  --quiet --exec tsx src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.1"
+  },
+  "dependencies": {
+    "@types/express-fileupload": "^1.5.1",
+    "@types/jsonwebtoken": "^9.0.10",
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.23.2",
+    "smart-saver": "^1.0.0",
+    "zod": "^4.4.3"
+  }
+}
