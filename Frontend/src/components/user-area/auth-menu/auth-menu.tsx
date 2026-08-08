@@ -6,29 +6,36 @@ import { UserModel } from "../../../models/user-model";
 import { userService } from "../../../services/user-service";
 
 export function AuthMenu() {
-    const user = useSelector<AppState, UserModel>(state => state.user)
-    const navigate = useNavigate();
-    function signOut() {
-        userService.logout()
-        navigate("/home");
 
+    const user = useSelector<AppState, UserModel>(state => state.user);
+    const navigate = useNavigate();
+
+    function signOut() {
+        userService.logout();
+        navigate("/home");
     }
+
     return (
         <div className="AuthMenu">
-            {!user && <div >
 
-                <span>Hello Guest</span>
-                <span>| </span>
-                <NavLink to={"/signup"}>Sign Up</NavLink>
-                <span>| </span>
-                <NavLink to={"/signin"}>Sign in</NavLink>
-            </div>
-            }
-            {user && <div >
-                <span>Hello {user.firstName} </span>
-                <button onClick={signOut}>Signout</button>
-            </div>
-            }
+            {!user && <div>
+                <span>Hello Guest | </span>
+
+                <NavLink to="/signup">Sign Up</NavLink>
+
+                <span> | </span>
+
+                <NavLink to="/signin">Sign In</NavLink>
+            </div>}
+
+            {user && <div>
+
+                <span>Hello {user.firstName} {user.lastName} | </span>
+
+                <button onClick={signOut}>Sign Out</button>
+
+            </div>}
+
         </div>
     );
 }

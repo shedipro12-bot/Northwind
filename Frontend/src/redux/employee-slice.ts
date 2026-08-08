@@ -35,7 +35,7 @@ function deleteEmployee(currentState: EmployeeModel[], action: PayloadAction<num
     return newState;
 }
 
-export const empoloyeeSlice = createSlice({
+export const employeeSlice = createSlice({
     name: "employee-slice", // Unique name for this slice.
     initialState: [] as EmployeeModel[], // The inital state before calling any reducer
     reducers: { addEmployee, updateEmployee, deleteEmployee, employeeInitial } // Our reducers

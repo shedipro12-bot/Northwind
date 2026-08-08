@@ -6,5 +6,5 @@ export type UserModel = {
     lastName: string;
     email: string;
     password: string | number;
-    role: Role
+    role: Role // User / Admin
 }

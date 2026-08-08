@@ -9,11 +9,12 @@ function initUser(_currentState: UserModel, action: PayloadAction<UserModel>): U
 }
 
 // Reducer - logout the user:
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function logoutUser(_currentState: UserModel, _action: Action): UserModel {
     return null!;
 }
 
-//User slice:
+// User slice: 
 export const userSlice = createSlice({
     name: "user-slice",
     initialState: null! as UserModel,

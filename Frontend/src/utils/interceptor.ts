@@ -11,7 +11,7 @@ class Interceptor {
 
             }
             return httpRequest
-        })
+        });
     }
 }
 

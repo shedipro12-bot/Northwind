@@ -2,7 +2,7 @@ import axios from "axios";
 import { EmployeeModel } from "../models/employee-model";
 import { appConfig } from "../utils/appconfig";
 import { store } from "../redux/store";
-import { empoloyeeSlice } from "../redux/employee-slice";
+import { employeeSlice } from "../redux/employee-slice";
 
 class EmployeeService {
 
@@ -22,7 +22,7 @@ class EmployeeService {
         // const type = "employee-slice/employeeInitial"; // "slice-name/reducer-name"
         // const payload = employees;
         // const action = { type, payload };
-        const action = empoloyeeSlice.actions.employeeInitial(employees) // Same as the 3 lines above 
+        const action = employeeSlice.actions.employeeInitial(employees) // Same as the 3 lines above 
         store.dispatch(action);
 
         return employees;
@@ -48,7 +48,7 @@ class EmployeeService {
         const response = await axios.post<EmployeeModel>(appConfig.employeesUrl, employee);
         const dbEmployee = response.data;
         // Add employee to global state:
-        const action = empoloyeeSlice.actions.addEmployee(dbEmployee)
+        const action = employeeSlice.actions.addEmployee(dbEmployee)
         store.dispatch(action)
     }
 
@@ -58,7 +58,7 @@ class EmployeeService {
         const response = await axios.put<EmployeeModel>(appConfig.employeesUrl + "/" + employee.id, employee);
         const dbEmployee = response.data;
         // Update employee in global state
-        const action = empoloyeeSlice.actions.updateEmployee(dbEmployee);
+        const action = employeeSlice.actions.updateEmployee(dbEmployee);
         store.dispatch(action);
 
     }
@@ -68,7 +68,7 @@ class EmployeeService {
         // Delete employee from backend:
         await axios.delete(appConfig.employeesUrl + "/" + id);
         // Delete employee from global state:
-        const action = empoloyeeSlice.actions.deleteEmployee(id)
+        const action = employeeSlice.actions.deleteEmployee(id)
         store.dispatch(action);
     }
 
