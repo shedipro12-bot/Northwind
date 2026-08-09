@@ -22,7 +22,7 @@ class UserController {
     private async login(request: Request, response: Response): Promise<void> {
         const credentials = new Credentials(request.body);
         const token = await userService.login(credentials);
-        response.json(token)
+        response.json(token);
     }
 
 }

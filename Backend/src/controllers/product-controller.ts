@@ -24,6 +24,8 @@ class ProductController {
 
     // Get all products: 
     private async getAllProducts(request: Request, response: Response): Promise<void> {
+        console.log("Getting all product... ");
+        
         const products = await productService.getAllProducts();
         response.status(StatusCode.OK).json(products);
     }

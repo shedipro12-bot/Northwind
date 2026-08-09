@@ -7,4 +7,6 @@ export type UserModel = {
     email: string;
     password: string | number;
     role: Role // User / Admin
+
+    captchaToken: string; // RECAPTCHA
 }

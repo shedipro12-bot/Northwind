@@ -6,11 +6,20 @@ import { notify } from "../../../utils/notify";
 import { userService } from "../../../services/user-service";
 import { useNavigate } from "react-router";
 import { Button, ButtonGroup, Checkbox, FormControlLabel, TextField, Typography } from "@mui/material";
+import ReCAPTCHA from "react-google-recaptcha";
+import { appConfig } from "../../../utils/appconfig";
+import { useState } from "react";
 export function SignUp() {
-    const { register, handleSubmit } = useForm<UserModel>()
+    const { register, handleSubmit } = useForm<UserModel>();
+    const [captchaToken, setCaptchaToken] = useState<string | null>("")
     const navigate = useNavigate()
     async function send(user: UserModel) {
+        if (!captchaToken) {
+            notify.error(`Please check the "i'm not a robot" checkbox.`);
+            return
+        }
         try {
+            user.captchaToken = captchaToken;
             await userService.register(user)
             notify.success("Welcome" + user.firstName)
             navigate("/home")
@@ -19,6 +28,11 @@ export function SignUp() {
             notify.error(err)
         }
     }
+    function saveCaptchaToken(captchaToken: string | null): void {
+        setCaptchaToken(captchaToken);
+
+    }
+
 
     return (
         <div className="SignUp">
@@ -31,12 +45,16 @@ export function SignUp() {
                 <TextField label="First name" {...register("firstName")} fullWidth />
                 <TextField label="Last name" {...register("lastName")} fullWidth />
                 <TextField label="Email" type="email" {...register("email")} fullWidth />
-                <TextField label="Password" type="pasword" {...register("password")} fullWidth />
-                <FormControlLabel label = "Send me the promotional emails" control={<Checkbox/>}/>
-            <ButtonGroup variant="contained" fullWidth>
-                <Button type="sumbit" color="primary">Sign In</Button>
-                <Button type="reset" color="secondary">Clear</Button>
-            </ButtonGroup>
+                <TextField label="Password" type="password" {...register("password")} fullWidth />
+
+                <FormControlLabel label="Send me the promotional emails" control={<Checkbox />} />
+
+
+                <ReCAPTCHA sitekey={appConfig.recaptchaSiteKey} onChange={saveCaptchaToken} />
+                <ButtonGroup variant="contained" fullWidth>
+                    <Button type="submit" color="primary">Sign In</Button>
+                    <Button type="reset" color="secondary">Clear</Button>
+                </ButtonGroup>
 
 
 
