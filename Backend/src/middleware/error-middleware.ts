@@ -1,31 +1,43 @@
-import colors from "colors"
 import { NextFunction, Request, Response } from "express";
 import { StatusCode } from "../models/enums";
 import { ClientError } from "../models/client-error";
+import colors from "colors";
 import { appConfig } from "../utils/app-config";
+
 class ErrorMiddleware {
+
+    // Route Not Found Middleware:
     public routeNotFound(request: Request, response: Response, next: NextFunction): void {
-        const err = new ClientError(StatusCode.NotFound, `Route ${request.originalUrl} on method ${request.method} not found`)
+        const err = new ClientError(StatusCode.NotFound, `Route ${request.originalUrl} on method ${request.method} not found.`);
         next(err);
     }
+
+    // Catch-All Middleware:
     public catchAll(err: any, request: Request, response: Response, next: NextFunction): void {
+
         // Take status:
         const status = err.status || StatusCode.InternalServerError;
 
-        // is server erorr:
+        // Is server error:
         const isServerError = status >= 500 && status <= 599;
-        // Take message:
+
+        // Take message: 
         const message = isServerError && appConfig.isProduction ? "Some error, please try again." : err.message;
-        // Console message:                
+
+        // Console message: 
         console.log(colors.red(err.message));
 
-        // Log erros in database:
-        //...
+        // Log errors in database:
+        // ...
 
-        // return back error:
-        response.status(StatusCode.InternalServerError).json({ message });
-
+        // Return back error:
+        response.status(status).json({ message });
     }
+    
 
+    public ping(request: Request, response: Response, next: NextFunction): void {
+        response.send("pong");
+    }
 }
-export const errorMiddleWare = new ErrorMiddleware();
+
+export const errorMiddleware = new ErrorMiddleware();

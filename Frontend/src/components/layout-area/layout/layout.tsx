@@ -8,7 +8,7 @@ export function Layout() {
     return (
         <div className="Layout">
 
-            <header>
+			<header>
                 <Header />
             </header>
 

@@ -1,0 +1,477 @@
+{
+    "docstore/data": {
+        "52927da9-b0d4-408e-b0e7-ee3eed9e6798": {
+            "indexId": "52927da9-b0d4-408e-b0e7-ee3eed9e6798",
+            "nodesDict": {
+                "d6409465-515c-4418-8903-7f55ad12929b": {
+                    "id_": "d6409465-515c-4418-8903-7f55ad12929b",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                        "file_name": "LOA Policy.docx"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/LOA Policy.docx_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "X6d4WoZCqigeGO1gbfs2/i8KE2PGME52qCnQfhmXpWE="
+                        },
+                        "NEXT": {
+                            "nodeId": "17fdf05a-9c1d-4ec0-9efa-97a595925f43",
+                            "metadata": {},
+                            "hash": "1oLanHXxGNAKo0ZfFufO+NUX/kjJNAXGUjpjmfule8U="
+                        }
+                    },
+                    "text": "Leaves of Absence\n\n(Northwind Employees)\n\n\n\nPurpose:\n\nThe purpose of this policy is to provide insight into the different types of Leave of Absences (“LOA”) offered.\n\n\n\nPolicy:\n\nA leave of absence is an employment status for an employee who is approved for extended time away from work for a specific reason, such as medical or personal. To request any leave below, please notify Human Resources (human.resource@northwind-traders.com) as soon as possible once the need for the leave becomes known to you.\n\n\n\nPlease Note: STD/LTD cannot be used in conjunction or to subsidize Worker’s Compensation.\n\n\n\nAny employee who fails to file a claim or provide the required documentation within the specified timeframe or according to the organization's guidelines. Failure to comply with these requirements may result in delays or issues with receiving regular earnings.\n\n\n\nTypes of Leave:\n\nBereavement\n\nCoping with the loss of a loved one is difficult; we recognize this and offer bereavement leave of up to five days to all its employees as of their hire date. Time off for bereavement leave is paid.\n\n\n\nTime Allowances:\n\n Maximum of 10 days off with pay is permitted upon the death of a regular employee’s:  \n\nSpouse/Domestic Partner\n\nChildren/Stepchildren\n\nParents/Stepparents\n\nSiblings/Stepsiblings\n\nLegal guardians/Persons for whom you serve as a legal guardian\n\nMaximum of 5 days off with pay for a reproductive loss:\n\nMiscarriage\n\nStillbirth\n\nFailed adoption or surrogacy\n\nUnsuccessful assisted reproduction\n\nMaximum of 3 days off with pay is permitted upon the death of a regular employee's:\n\nGrandparents\n\nGrandchildren\n\nMother-in-law, Father-in-law, Sister-in-law, Brother-in-law\n\nMaximum of 1 day off with pay is permitted upon the death of a regular staff member's:\n\nAunts/Uncles/Cousins\n\nNiece/Nephew\n\nRelatives living in the household\n\n\n\nTime off related to the death of any other person may be granted as PTO if available or on an unpaid basis, depending on Northwind Traders’s business needs.",
+                    "textTemplate": "",
+                    "endCharIdx": 2000,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "d3IchkhCGjBSs15LHjeiaNyUit1+mhMv94Er2teqy+s="
+                },
+                "17fdf05a-9c1d-4ec0-9efa-97a595925f43": {
+                    "id_": "17fdf05a-9c1d-4ec0-9efa-97a595925f43",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                        "file_name": "LOA Policy.docx"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/LOA Policy.docx_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "X6d4WoZCqigeGO1gbfs2/i8KE2PGME52qCnQfhmXpWE="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "d6409465-515c-4418-8903-7f55ad12929b",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "kUCWWBeUtMyRAE9xdP7ZOn4nn8+haHxxEKCY/hCqXr0="
+                        },
+                        "NEXT": {
+                            "nodeId": "0b5400fe-4c70-43d5-b705-d049652c651b",
+                            "metadata": {},
+                            "hash": "3M3VTFiPhebqt6sYsTOXDa+j3Kz1dJJrmj1eMNqB158="
+                        }
+                    },
+                    "text": "Time off related to the death of any other person may be granted as PTO if available or on an unpaid basis, depending on Northwind Traders’s business needs.\n\n\n\n\n\n\n\nFamily and Medical Leave (FMLA)\n\nAs an employee, you may be entitled to a leave of absence under the Family and Medical Leave Act (“FMLA”) and/or state law, including the California Family Rights Act (“CFRA”). This policy is intended to provide you with information concerning FMLA or similar state law entitlements and obligations you may have during such leave. \n\n\t\n\nThe FMLA provides eligible employees up to 12 work weeks of unpaid leave for certain family and medical reasons during a 12-month period. The 12-month period is rolling, which means the 12-month period is measured backward from the date leave is taken and continuous with each additional leave day taken.\n\n\n\nFor details, please review the “Family and Medical Leave” policy.\n\n\n\nJury Duty\n\nIf you are called to perform jury duty, a leave of absence will be granted. Upon completion of your jury service, please submit verification of attendance from the court and payment received for jury duty. \n\n\n\nTo the extent applicable state law is more generous than this policy, the Company will provide leave in accordance with applicable State Law. \n\n\n\nThe Company will pay employees their base salary while on documented Jury Leave up to a maximum of 30 days per calendar year, in a manner consistent with applicable law.\n\n\n\nPaid Caregiver Leave\n\nNorthwind Traders may provide up to six (6) weeks of paid Caregiver Leave in a 12-month period to an eligible employee to care for the employee’s spouse, domestic partner, child, or parent who has a serious health condition. \n\n\n\nFor details, please review the “Paid Caregiver Leave” policy.",
+                    "textTemplate": "",
+                    "startCharIdx": 1844,
+                    "endCharIdx": 3606,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "fnzexnQn1CYxLZNVxFpzoGR50FTZSPvO/jUGihilw5k="
+                },
+                "0b5400fe-4c70-43d5-b705-d049652c651b": {
+                    "id_": "0b5400fe-4c70-43d5-b705-d049652c651b",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                        "file_name": "LOA Policy.docx"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/LOA Policy.docx_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "X6d4WoZCqigeGO1gbfs2/i8KE2PGME52qCnQfhmXpWE="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "17fdf05a-9c1d-4ec0-9efa-97a595925f43",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "1oLanHXxGNAKo0ZfFufO+NUX/kjJNAXGUjpjmfule8U="
+                        },
+                        "NEXT": {
+                            "nodeId": "41874c73-b016-4587-9a48-dbbdaef268c8",
+                            "metadata": {},
+                            "hash": "9HkowjzI9sVtRb9Uz8wOhHzWSnjFHeARVU8YLY475FI="
+                        }
+                    },
+                    "text": "For details, please review the “Family and Medical Leave” policy.\n\n\n\nJury Duty\n\nIf you are called to perform jury duty, a leave of absence will be granted. Upon completion of your jury service, please submit verification of attendance from the court and payment received for jury duty. \n\n\n\nTo the extent applicable state law is more generous than this policy, the Company will provide leave in accordance with applicable State Law. \n\n\n\nThe Company will pay employees their base salary while on documented Jury Leave up to a maximum of 30 days per calendar year, in a manner consistent with applicable law.\n\n\n\nPaid Caregiver Leave\n\nNorthwind Traders may provide up to six (6) weeks of paid Caregiver Leave in a 12-month period to an eligible employee to care for the employee’s spouse, domestic partner, child, or parent who has a serious health condition. \n\n\n\nFor details, please review the “Paid Caregiver Leave” policy.\n\n\n\nParental Leave\n\nThis leave provides eligible employees with full paid time off from work, to care for and/or bond with newborn or newly adopted child. \n\nNorthwind Traders will grant up to 10 weeks of full paid time off to eligible employees.\n\nNew parents by birth or adoption are eligible. \n\nMust be taken within 1 year of birth/adoption at a minimum of 1-week increments (Monday – Friday).  \n\nFor birth mothers, this leave begins no sooner than at the conclusion of STD benefits.\n\nBenefits run concurrently with FMLA, applicable state leaves, and Company Paid Holidays.\n\nWhere both parents work for the Company, only one employee at a time can receive Paid Parental Leave to bond with the same child.\n\n\n\nUnpaid Personal Leave\n\nNorthwind Traders supports our employees in need of requesting necessary extended time away from work. The intent of this policy is to outline the details and process for requesting an unpaid personal leave of absence (LOA). Generally, may not exceed 60 calendar days during any 24-month period.\n\n\n\nFor details, please review the “Unpaid Personal Leave” policy.",
+                    "textTemplate": "",
+                    "startCharIdx": 2685,
+                    "endCharIdx": 4699,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "Gvz9Zr7N3ClfoeTts8uHHwmktdq2nE3NuqxN8sMmwGM="
+                },
+                "41874c73-b016-4587-9a48-dbbdaef268c8": {
+                    "id_": "41874c73-b016-4587-9a48-dbbdaef268c8",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                        "file_name": "LOA Policy.docx"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/LOA Policy.docx_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "X6d4WoZCqigeGO1gbfs2/i8KE2PGME52qCnQfhmXpWE="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "0b5400fe-4c70-43d5-b705-d049652c651b",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "3M3VTFiPhebqt6sYsTOXDa+j3Kz1dJJrmj1eMNqB158="
+                        },
+                        "NEXT": {
+                            "nodeId": "a5039025-60e0-486d-9e81-21a02b2e2e14",
+                            "metadata": {},
+                            "hash": "YlJuTaSO2AyzPy+9H8cIcNISv9udvTtWZSY1U8sWE60="
+                        }
+                    },
+                    "text": "Unpaid Personal Leave\n\nNorthwind Traders supports our employees in need of requesting necessary extended time away from work. The intent of this policy is to outline the details and process for requesting an unpaid personal leave of absence (LOA). Generally, may not exceed 60 calendar days during any 24-month period.\n\n\n\nFor details, please review the “Unpaid Personal Leave” policy.\n\n\n\n\n\n\n\n\n\n\n\nVoting Leave\n\nAn employee who has less than four (4) hours between the opening/closing of the election polls and the start/finish of his/her work time are entitled to two (2) hours with pay to vote. The Company designates the time in which the employee may leave to vote, and the employee must notify the Company between 2 and 10 days before the election of his/her need to leave work to vote. Where applicable State law provides leave more generous than this policy, the Company will fully comply with applicable State voting leave law. \n\n\n\n(Applies to Mumm Napa and Kenwood) \n\nEmployees who are registered voters are entitled to time off from work if necessary to vote in local, state, and national elections. Such time will be paid if the employee cannot vote prior to or after work. The employee must inform his/her supervisor/manager two days in advance if they need the time off. Typically, the polls open at 7:00 a.m. and close at 8:00 p.m. Most employees should have adequate time to vote without having to take additional time away from work. Paid time off for voting must be approved by a supervisor/manager.\n\n\n\nWitness Duty\n\nThe Company will not take any adverse employment action against an employee who participates as a witness in a court proceeding or exercises his/her rights as a victim of a crime, despite his/her absence from work. An employee must notify his/her supervisor/manager of his/her intention to appear as a witness, to consult with the district attorney, or to exercise other rights, prior to the day of attendance. \n\n\n\nIf the employee takes unpaid witness duty leave, the employee must provide verification of the employee’s service.",
+                    "textTemplate": "",
+                    "startCharIdx": 4315,
+                    "endCharIdx": 6376,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "Kl/02t2nBS8kdjFof9MuNRKTdoNyj1CdHi8SG6LIs6g="
+                },
+                "a5039025-60e0-486d-9e81-21a02b2e2e14": {
+                    "id_": "a5039025-60e0-486d-9e81-21a02b2e2e14",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                        "file_name": "LOA Policy.docx"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/LOA Policy.docx_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "X6d4WoZCqigeGO1gbfs2/i8KE2PGME52qCnQfhmXpWE="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "41874c73-b016-4587-9a48-dbbdaef268c8",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\LOA Policy.docx",
+                                "file_name": "LOA Policy.docx"
+                            },
+                            "hash": "9HkowjzI9sVtRb9Uz8wOhHzWSnjFHeARVU8YLY475FI="
+                        }
+                    },
+                    "text": "Witness Duty\n\nThe Company will not take any adverse employment action against an employee who participates as a witness in a court proceeding or exercises his/her rights as a victim of a crime, despite his/her absence from work. An employee must notify his/her supervisor/manager of his/her intention to appear as a witness, to consult with the district attorney, or to exercise other rights, prior to the day of attendance. \n\n\n\nIf the employee takes unpaid witness duty leave, the employee must provide verification of the employee’s service. \n\n\n\nTo the extent applicable state law is more generous than this policy, the Company will provide leave in accordance with applicable State Law. The Company will pay employees, who have been required to appear as a witness by subpoena, their base salary up to a maximum of 30 days per calendar year, in a manner consistent with applicable law.\n\n\n\nModified Work Program \n\n(Applies to Fort Smith, Mumm Napa, and Kenwood Employees)\n\nThis program is designed to provide an employee an opportunity to return to the workplace and perform value-added tasks consistent with their capabilities. Modified work assignments are subject to conditions including availability of work as well as local work rules. These locations may provide modified work assignments to production employees on a temporary basis where the employee has medically documented temporary limitation that prevents the employee from performing at least some of his/her job functions in the usual manner.\n\n\n\nModified work assignments are temporary (usually less than 90 days) and are designed to help an employee return to regular duty; they are not permanent job assignments. If an injury, illness or other medical condition prevents an employee from performing at least some of his/her job functions in the usual manner on a temporary basis, the employee should contact Human Resources to request a modified duty assignment. The Company will require that any employee requesting a modified duty assignment provide a note from a medical provider documenting the medical condition requiring modified duty and the duration of the medical impairment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n*California specific leaves (applicable to California-based employees only):\n\nFor details, please review the “California Leave(s)” policy.\n\n\n\nCrime Victim Leave \n\nDomestic Violence and Sexual Assault Victim Leave \n\nVolunteer Civil Service Leave \n\nPregnancy Disability Leave \n\nSchool Appearance and Activities Leave \n\nOrgan and Bone Marrow Donation Leave",
+                    "textTemplate": "",
+                    "startCharIdx": 5833,
+                    "endCharIdx": 8353,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "ZbRFllF082bxzybbwnheLtft5H0iolOYo9kVJdbRzMw="
+                },
+                "68b112df-557a-45dc-90fe-5adc873f281b": {
+                    "id_": "68b112df-557a-45dc-90fe-5adc873f281b",
+                    "metadata": {
+                        "page_number": 1,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_1",
+                            "metadata": {
+                                "page_number": 1,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "nLaRu5PkGYc+q5vA0eAYBhgMfmNCn5tMxacb8b+yZLI="
+                        },
+                        "NEXT": {
+                            "nodeId": "86fd85d3-fe36-4d18-91bc-930c35496da8",
+                            "metadata": {},
+                            "hash": "wi9yOVD/tovAHn3z/Rogm70Y7AE8f6NExejcxM/xNHA="
+                        }
+                    },
+                    "text": "Product Refunds and Exchanges\n1.1 Refund Policy\n(a) Unless otherwise required by applicable law, the Company will:\n(i) refund one hundred percent (100%) of the price, less applicable Bonuses (plus applicable\ntax if prepaid) to you on unopened and resalable Business Support Materials sold by the\nCompany to you that are returned within sixty (60) days from the date on which the\nBusiness Support Materials are shipped to you or collected by you; or\n(ii) refund one hundred percent (100%) of the price, less applicable Bonuses (plus applicable\ntax if prepaid) to you on unopened and resalable Products (except Business Support\nMaterials) sold by the Company to you that are returned within ninety (90) days from the\ndate on which the Products are shipped to or collected by you; or\n(iii) after deducting an administrative fee equivalent to 10% of the price, refund ninety\npercent (90%) of the price, less applicable Bonuses (plus applicable tax if prepaid) to you\non unopened and resalable Products (except Business Support Materials) sold by the\nCompany to you that are returned (1) after expiry of the return period specified in\nparagraph (ii) above; and (2) within the period of 12 months from the date of purchase.\nThe Company does not refund the original shipping costs on Products that you\nreturn. In order for the Company to correctly back out the applicable Bonuses on\nreturned Products, you must keep the sales order number from the invoice. You\nmust provide the sales order number to the Company at the time you request a\nrefund. You may also return individual Products that are purchased as part of a kit or\npackage. The form of the refund will be based on the original form of payment such\nas a bank transfer or a credit card charge. Instead of a refund, the Company may\nchoose other alternatives such as a Product credit.",
+                    "textTemplate": "",
+                    "endCharIdx": 1833,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "hu/aEcOlSpzrPM3GM55gD36a/AxhlkgZngiqxpSM9Hk="
+                },
+                "86fd85d3-fe36-4d18-91bc-930c35496da8": {
+                    "id_": "86fd85d3-fe36-4d18-91bc-930c35496da8",
+                    "metadata": {
+                        "page_number": 1,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_1",
+                            "metadata": {
+                                "page_number": 1,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "nLaRu5PkGYc+q5vA0eAYBhgMfmNCn5tMxacb8b+yZLI="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "68b112df-557a-45dc-90fe-5adc873f281b",
+                            "metadata": {
+                                "page_number": 1,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "yLc9WovPRb0F9vxUbD391E+srtdBUaSK8T3StQ0gGb4="
+                        }
+                    },
+                    "text": "The Company does not refund the original shipping costs on Products that you\nreturn. In order for the Company to correctly back out the applicable Bonuses on\nreturned Products, you must keep the sales order number from the invoice. You\nmust provide the sales order number to the Company at the time you request a\nrefund. You may also return individual Products that are purchased as part of a kit or\npackage. The form of the refund will be based on the original form of payment such\nas a bank transfer or a credit card charge. Instead of a refund, the Company may\nchoose other alternatives such as a Product credit. The return of Products may affect\nyour eligibility to receive Bonuses and your pin level, and if Bonuses have already\nbeen paid on the returned Products, then the Company will recoup your Bonuses as\nset forth below in Section 6.9 of this Chapter 2. The Company does not provide\nrefunds for Products or Business Support Materials and Services purchased from\nanother Brand Affiliate. You must seek a refund directly from the Brand Affiliate who\nsold you such Products or Business Support Materials and Services.\n1.2 Exchange Policy for Products Purchased Directly from the Company\nUnless otherwise required by applicable law, the Company will exchange Products\npurchased directly from the Company that were incorrectly sent, or are defective, if you\nnotify the Company within 90 days of the date of purchase. If an exchange is not feasible,\nthe Company may issue (i) a Company credit for the amount of the exchanged Products,\nwhich may be used to purchase other Products, or (ii) a full refund of the purchase price.\n1.3 Procedures for Obtaining a Refund or Exchange\nYou must comply with the following procedures to obtain a refund or exchange:\n(a) You must return the Product and/or Business Support Material to Nu Skin Enterprises",
+                    "textTemplate": "",
+                    "startCharIdx": 1218,
+                    "endCharIdx": 3064,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "Y7cD7kLMoGQ5LfjFcwoUkWFY6tR5Nef+rMsbbZXbYTw="
+                },
+                "81563910-b9a7-4b65-806c-84be6d517cde": {
+                    "id_": "81563910-b9a7-4b65-806c-84be6d517cde",
+                    "metadata": {
+                        "page_number": 2,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_2",
+                            "metadata": {
+                                "page_number": 2,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "E5NHaYOrzKkszUDFpW0nKe++iwI/ZhHz5foE2TUqqA4="
+                        },
+                        "NEXT": {
+                            "nodeId": "1dc5653a-b9ea-4226-b704-c1c1527d0e74",
+                            "metadata": {},
+                            "hash": "AyaRIPj0VKIoIq99CzBfNuZibuGw+WHHPmIlen0b1zc="
+                        }
+                    },
+                    "text": "Singapore Pte. Ltd. during office hours together with the original sales receipt (Inquiries at\n(65) 6311 8276);\n(b) All return shipping costs (if any) must be paid by you;\n(c) Products sent to the Company without prior Company approval will not qualify for a refund\nor exchange and will be returned to you at your expense; and\n(d) Procedures may vary in jurisdictions where different requirements are imposed by law.\n1.4 Policy for Uncollected Products\nYou acknowledge that administrative time and costs will be incurred by the Company to retain\nProducts and/or Business Support Materials purchased but remain uncollected by and/or undelivered\nto you. Accordingly, you agree that IN THE EVENT THAT:-\n1) when collection is to be made by you and you fail or neglect to collect any Products and/or\nBusiness Support Materials purchased from the Company within seven (7) days from the date of\npurchase, the Company will deliver the purchased Products and/or Business Support Materials\nto the address as provided by you at reasonable delivery charges and if such Products and/or\nBusiness Support Materials cannot be successfully delivered to you and you fail or neglect for\nwhatsoever reason to collect the Products and/or Business Support Materials from the Company\nwithin three (3) months from the date of purchase; or\n2) where you have requested the Company and the Company has agreed to deliver any Products\nand/or Business Support Materials to you but the Company is unable to deliver such Products\nand/or Business Support Materials to you due to an incorrect or incomplete delivery address or\nthe unavailability of the named recipient at the address as provided by you, and you fail or\nneglect to collect the Products and/or Business Support Materials from the Company within\nthree (3) months from the date of purchase,\nTHEN upon the expiry of the aforesaid period of three (3) months, the Company shall, without further\nreference, notice or account to you, cancel your order of such Products and/or Business Support\nMaterials and refund to you the amount paid for such Product and/or Business Support Materials in\naccordance with Section 4.1 of Chapter 2.",
+                    "textTemplate": "",
+                    "endCharIdx": 2156,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "9Gj6sgtbEtjRe43YU6xeMXqf4YADmNXnKHMZ3lEjzTE="
+                },
+                "1dc5653a-b9ea-4226-b704-c1c1527d0e74": {
+                    "id_": "1dc5653a-b9ea-4226-b704-c1c1527d0e74",
+                    "metadata": {
+                        "page_number": 2,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_2",
+                            "metadata": {
+                                "page_number": 2,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "E5NHaYOrzKkszUDFpW0nKe++iwI/ZhHz5foE2TUqqA4="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "81563910-b9a7-4b65-806c-84be6d517cde",
+                            "metadata": {
+                                "page_number": 2,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "0IkmLVW+vZNBIUhJA6RxXKW8fyuyyfWmv7s3No24vyY="
+                        }
+                    },
+                    "text": "If Bonuses have already been paid on such Products, then\nthe Company will recoup your Bonuses as set forth in Section 6.9 of Chapter 2.\n2 Retail Sales and Customer Returns\n2.1 Retail Sales\nProducts purchased from the Company may only be sold to retail customers, used for Product\ndemonstrations, or for your own personal use. You are authorized to resell Products you purchase\nfrom the Company to retail customers. Subject to the terms hereinbelow, you may establish your\nown retail prices for Products and may keep all of the profits you earn from retailing the Products to\nyour retail customers.\nThe Company has established suggested retail prices for Products based on competitive pricing in\neach market. Maintaining retail pricing for non-Brand Affiliates helps to preserve the value of the\nCompany’s Products and business opportunity. The Company may take disciplinary measures,\nincluding possible termination of a Brand Affiliate Account, in the event the Company determines\nthat a Brand Affiliate Account resells Products at price levels that impair the viability of bona fide\nretail pricing for other Brand Affiliate Accounts. The selling of the Company’s Products in the market",
+                    "textTemplate": "",
+                    "startCharIdx": 2157,
+                    "endCharIdx": 3343,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "C4+ZgQQuz6MV9LJFUc34pG1P+gxO31JGOeUN5qYZVPw="
+                },
+                "3a4a0af5-6151-436b-89b4-59eb46257cd3": {
+                    "id_": "3a4a0af5-6151-436b-89b4-59eb46257cd3",
+                    "metadata": {
+                        "page_number": 3,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_3",
+                            "metadata": {
+                                "page_number": 3,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "kw1MOJAlRSUwPwW0EF7U+WunCHRiSZCM5IfRIs56MWE="
+                        },
+                        "NEXT": {
+                            "nodeId": "938b0a06-3619-4f42-b683-2be7c100d18a",
+                            "metadata": {},
+                            "hash": "AmCkFqwl/aUuumhMvpxpx9RNt+1qc3xOU8b1aN06mro="
+                        }
+                    },
+                    "text": "below the Company’s Brand Affiliate member price in that market is strictly prohibited.\n2.2 No Wholesaling of Products\nYou may not sell or distribute Products to Persons who intend to resell the Products, or have resold\nProducts in the past. You are prohibited from selling to Persons, either directly or indirectly, who\nultimately (i) resell the Products through a retail store, (ii) resell the Products over the Internet,\nregardless of the form of Internet distribution channel, unless it has been approved by the Company\nin writing, (iii) import the Products into an Unopened Market, or (iv) use any other method of\ndistribution that violates the primary purpose of your direct selling business and that of the\nCompany. You must take reasonable steps to ensure that Persons who purchase Products from you\ndo not intend to violate this Section 5.2.\n2.3 Retail Sales Receipts\nYou must provide Retail Sales Receipts to your customers in accordance with the following\nrequirements:\n(a) You must provide the customer with two copies of the completed Retail Sales Receipt at the\ntime of the sale. All blanks in the section referring to the seven-day refund policy on the back\nof the receipt must be completed. The Retail Sales Receipt should be completed and include\nthe items ordered, the amount of the sale, and the customer’s name, address, telephone\nnumber, the date of the sale, your name, business address, and business telephone number.\n(b) You must keep a copy of the Retail Sales Receipt for your records. You must keep copies of\nall Retail Sales Receipts on file for at least four years.\n2.4 Money-back Guarantees, Customer Refunds, and Exchanges for your\nRetail Customers\n(a) You must offer a seven-day money-back guarantee to your retail customers. This means that\nyou must, for any reason and upon request, give a full refund of the purchase price to the\ncustomer. The only requirement is that the customer must request the refund within seven\nbusiness days of purchase and return the unused portion of Product. You must make a\nrefund for returned Products within 10 days of the customer’s request.",
+                    "textTemplate": "",
+                    "endCharIdx": 2108,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "0lBKXePBBU0SSyLgna5CcrsbCMY16x9Q9x+89I6e4AE="
+                },
+                "938b0a06-3619-4f42-b683-2be7c100d18a": {
+                    "id_": "938b0a06-3619-4f42-b683-2be7c100d18a",
+                    "metadata": {
+                        "page_number": 3,
+                        "total_pages": 3,
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                        "file_name": "Refund Policy.pdf"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Refund Policy.pdf_3",
+                            "metadata": {
+                                "page_number": 3,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "kw1MOJAlRSUwPwW0EF7U+WunCHRiSZCM5IfRIs56MWE="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "3a4a0af5-6151-436b-89b4-59eb46257cd3",
+                            "metadata": {
+                                "page_number": 3,
+                                "total_pages": 3,
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Refund Policy.pdf",
+                                "file_name": "Refund Policy.pdf"
+                            },
+                            "hash": "QY2UtORVefuV584E+kcCaBodue0X1ahSuNga+UotYTE="
+                        }
+                    },
+                    "text": "The Retail Sales Receipt should be completed and include\nthe items ordered, the amount of the sale, and the customer’s name, address, telephone\nnumber, the date of the sale, your name, business address, and business telephone number.\n(b) You must keep a copy of the Retail Sales Receipt for your records. You must keep copies of\nall Retail Sales Receipts on file for at least four years.\n2.4 Money-back Guarantees, Customer Refunds, and Exchanges for your\nRetail Customers\n(a) You must offer a seven-day money-back guarantee to your retail customers. This means that\nyou must, for any reason and upon request, give a full refund of the purchase price to the\ncustomer. The only requirement is that the customer must request the refund within seven\nbusiness days of purchase and return the unused portion of Product. You must make a\nrefund for returned Products within 10 days of the customer’s request. The Company\nencourages you to honor your retail customers’ requests for refunds or Product exchanges\neven if made more than seven business days after the date of retail sale.\n(b) If your retail customer purchases a Product directly from you, and your retail customer\nreturns the Product to you for a refund, then you are responsible for, and must provide the\nretail customer with, a refund without any reimbursement from the Company. The Company\nencourages you to honor your retail customer’s request for refunds even if made more than\nseven business days after the date of sale.\n(c) If your retail customer purchases a Product directly from you, and your retail customer\nreturns the Product to you for a Product exchange, then you are responsible for the Product\nexchange, and the Company will only replace the exchanged Product if returned within 30\ndays from the date of the retail sale and the Product is defective.",
+                    "textTemplate": "",
+                    "startCharIdx": 1207,
+                    "endCharIdx": 3028,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "Vkvr3cleB6/TLVRRhrAm9v4WReJNMHNs9ZLoASiMsKE="
+                },
+                "efda60b4-44d2-4653-ae03-324fce8cb98a": {
+                    "id_": "efda60b4-44d2-4653-ae03-324fce8cb98a",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Shipping Policy.txt",
+                        "file_name": "Shipping Policy.txt"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Shipping Policy.txt_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Shipping Policy.txt",
+                                "file_name": "Shipping Policy.txt"
+                            },
+                            "hash": "be2y6Jaybsfkj1Gg2apzY/GD1RJX3UF0lHIjqP65qjk="
+                        },
+                        "NEXT": {
+                            "nodeId": "31a15317-863d-415c-8d1d-6ac8ee42d28f",
+                            "metadata": {},
+                            "hash": "6l4Loq/20Dnd8Ix+LcM1dg6hUEunZxTQU6P7/3h3dls="
+                        }
+                    },
+                    "text": "SHIPPING & DELIVERY POLICY\r\nLast Updated: 2025\r\n\r\nThis Shipping & Delivery Policy (“Policy”) describes how Northwind Traders (“Company”, “we”, “us”, “our”) handles the shipping, delivery, and logistics of products purchased through the Pet Univerzum platform (“Services”).\r\n\r\nBy placing an order, you agree to the terms outlined in this Policy.\r\n\r\n1. DELIVERY AREAS\r\n1.1 Deliveries are currently available within the territory of the Republic of Serbia.  \r\n1.2 Express in-house delivery may be available in selected cities.  \r\n1.3 International shipping is not supported at this time unless explicitly stated.\r\n\r\n2. SHIPPING PARTNERS\r\n2.1 We cooperate with licensed courier services operating in Serbia.  \r\n2.2 Courier assignments may vary depending on location, product type, and availability.\r\n\r\n3. DELIVERY TIMES\r\n3.1 Estimated delivery times are displayed during checkout.  \r\n3.2 Delivery time may vary due to:  \r\n– courier workload,  \r\n– weather conditions,  \r\n– holidays,  \r\n– product availability,  \r\n– operational or technical delays.  \r\n\r\n3.3 These estimates are not guaranteed.\r\n\r\n4. SHIPPING FEES\r\n4.1 Shipping fees are calculated based on:  \r\n– delivery address,  \r\n– courier pricing,  \r\n– product weight and size.  \r\n4.2 Shipping fees are shown before finalizing the order.\r\n\r\n5. ORDER PROCESSING\r\n5.1 Orders placed before the daily cutoff time are processed the same day.  \r\n5.2 Orders placed after cutoff time or on holidays may be processed the next business day.\r\n\r\n6. FAILED DELIVERY ATTEMPTS\r\n6.1 If the courier is unable to deliver due to incorrect address, absence of the recipient, or other user-caused issues, additional delivery attempts may incur extra fees.  \r\n6.2 If the package is returned to us, the user may be responsible for reshipping costs.\r\n\r\n7. RISK OF LOSS\r\n7.1 Risk passes to the user once the package is handed to the courier.  \r\n7.2 We are not responsible for delays, damage, or loss caused by courier services.\r\n\r\n8.",
+                    "textTemplate": "",
+                    "endCharIdx": 1957,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "hFxkZUn3JL7rpTJtptjvIwTb4FYyga/rmDDPijWA2wU="
+                },
+                "31a15317-863d-415c-8d1d-6ac8ee42d28f": {
+                    "id_": "31a15317-863d-415c-8d1d-6ac8ee42d28f",
+                    "metadata": {
+                        "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Shipping Policy.txt",
+                        "file_name": "Shipping Policy.txt"
+                    },
+                    "excludedEmbedMetadataKeys": [],
+                    "excludedLlmMetadataKeys": [],
+                    "relationships": {
+                        "SOURCE": {
+                            "nodeId": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs/Shipping Policy.txt_1",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Shipping Policy.txt",
+                                "file_name": "Shipping Policy.txt"
+                            },
+                            "hash": "be2y6Jaybsfkj1Gg2apzY/GD1RJX3UF0lHIjqP65qjk="
+                        },
+                        "PREVIOUS": {
+                            "nodeId": "efda60b4-44d2-4653-ae03-324fce8cb98a",
+                            "metadata": {
+                                "file_path": "C:\\45800-7\\2026-08-12\\02 - Northwind\\Backend\\src\\assets\\docs\\Shipping Policy.txt",
+                                "file_name": "Shipping Policy.txt"
+                            },
+                            "hash": "9D0sT2fuYsFHV7nLkdi317Q/w3BGnPxuUHmNJLyPIEg="
+                        }
+                    },
+                    "text": "4.2 Shipping fees are shown before finalizing the order.\r\n\r\n5. ORDER PROCESSING\r\n5.1 Orders placed before the daily cutoff time are processed the same day.  \r\n5.2 Orders placed after cutoff time or on holidays may be processed the next business day.\r\n\r\n6. FAILED DELIVERY ATTEMPTS\r\n6.1 If the courier is unable to deliver due to incorrect address, absence of the recipient, or other user-caused issues, additional delivery attempts may incur extra fees.  \r\n6.2 If the package is returned to us, the user may be responsible for reshipping costs.\r\n\r\n7. RISK OF LOSS\r\n7.1 Risk passes to the user once the package is handed to the courier.  \r\n7.2 We are not responsible for delays, damage, or loss caused by courier services.\r\n\r\n8. DAMAGED OR INCORRECT DELIVERIES\r\n8.1 Users must report damaged, missing, or incorrect items within:  \r\n– 48 hours for damaged items,  \r\n– 72 hours for incorrect items,  \r\n– 5 business days for missing packages.  \r\n\r\n8.2 Claims must include photos or video evidence when applicable.\r\n\r\n9. SPECIAL CONDITIONS FOR PET FOOD AND PERISHABLE ITEMS\r\n9.1 Certain food products may require temperature-safe handling.  \r\n9.2 The user is responsible for promptly receiving such packages.  \r\n9.3 The Company is not responsible for spoilage caused by delayed pickup.\r\n\r\n10. CONTACT INFORMATION\r\nFor delivery-related questions, contact:",
+                    "textTemplate": "",
+                    "startCharIdx": 1230,
+                    "endCharIdx": 2579,
+                    "metadataSeparator": "\n",
+                    "type": "TEXT",
+                    "hash": "nY07znHICNc5B0htRMpirJZkiS5a7OWAeEzo5O37TtM="
+                }
+            },
+            "type": "simple_dict"
+        }
+    }
+}

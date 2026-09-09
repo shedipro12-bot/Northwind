@@ -1,21 +1,20 @@
+import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { AppState } from "../redux/app-state";
-import { UserModel } from "../models/user-model";
 import { useNavigate } from "react-router-dom";
-import {  useEffect } from "react";
+import { UserModel } from "../models/user-model";
+import { AppState } from "../redux/app-state";
 
-import { Role } from "../models/enums";
-import { notify } from "../utils/notify";
+// Custom hook for checking if user is signed in:
+export function useIsUser(): void {
 
-export function useIsUser() {
     const user = useSelector<AppState, UserModel>(state => state.user);
-    const navigate = useNavigate()
-
+    
+    const navigate = useNavigate();
+    
     useEffect(() => {
-        if (user?.role !== Role.Admin) {
-            notify.error("You're are not logged in!");
-            navigate("/signup");
-
+        if (!user) {
+            navigate("/signin");
         }
-    }, [])
+    }, []);
+
 }

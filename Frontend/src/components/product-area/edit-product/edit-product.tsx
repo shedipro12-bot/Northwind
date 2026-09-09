@@ -1,13 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
-import "./edit-product.css";
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { useNavigate, useParams } from "react-router-dom";
 import { ProductModel } from "../../../models/product-model";
 import { productService } from "../../../services/product-service";
-import { useNavigate, useParams } from "react-router-dom";
-import { useEffect } from "react";
 import { notify } from "../../../utils/notify";
-import { errorExtractor } from "error-extractor";
+import "./edit-product.css";
 
 export function EditProduct() {
 
@@ -25,18 +22,16 @@ export function EditProduct() {
 
     async function send(product: ProductModel) {
         try {
-            product.price = -1;
             product.id = id;
-            if (product.image) {
+            if(product.image) {
                 product.image = (product.image as unknown as FileList)[0];
             }
             await productService.updateProduct(product);
-            notify.success("Product has been Added")
+            notify.success("Product has been updated.");
             navigate("/products");
         }
         catch (err: any) {
-            const message = errorExtractor.getMessage(err)
-            notify.error(message);
+            notify.error(err);
         }
     }
 

@@ -1,13 +1,12 @@
 .Menu {
-    display: flex;
+	display: flex;
     flex-direction: column;
     gap: 20px;
     padding-top: 20px;
-
 }
 
-.Menu>.active {
-    color: lightcyan;
-    font-family: fantasy;
-    font-weight: bolder;
+.Menu > .active {
+    color: green;
+    font-family: Arial;
+    font-weight: bold;
 }

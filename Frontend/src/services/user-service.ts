@@ -1,8 +1,8 @@
 import axios from "axios";
 import { UserModel } from "../models/user-model";
-import { appConfig } from "../utils/appconfig";
+import { appConfig } from "../utils/app-config";
 import { jwtDecode } from "jwt-decode";
-import { CredentialsModel } from "../models/credential-model";
+import { CredentialsModel } from "../models/credentials-model";
 import { userSlice } from "../redux/user-slice";
 import { store } from "../redux/store";
 
@@ -19,7 +19,7 @@ class UserService {
             const action = userSlice.actions.initUser(dbUser);
             store.dispatch(action);
         }
-
+        
     }
 
     // Register new user: 

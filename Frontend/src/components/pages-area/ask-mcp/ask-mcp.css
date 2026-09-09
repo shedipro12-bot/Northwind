@@ -1,0 +1,7 @@
+.AskMcp {
+    margin: 20px;
+}
+
+.AskMcp > input {
+    width: 350px;
+}

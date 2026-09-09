@@ -1,6 +1,6 @@
 export enum StatusCode {
 
-    //Success:
+    // Success: 
     OK = 200,
     Created = 201,
     NoContent = 204,
@@ -12,14 +12,15 @@ export enum StatusCode {
     NotFound = 404,
     Conflict = 409,
     UnprocessableContent = 422,
-    TooManyRequests = 429,
+    // TooManyRequests = 429,
 
     // Server Errors:
     InternalServerError = 500
-
+    
 }
 
 export enum Role {
     Admin = 1,
     User = 2
 }
+

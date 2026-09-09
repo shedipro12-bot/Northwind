@@ -1,92 +1,105 @@
-import { NextFunction, Request, Response } from "express";
+import { Express, NextFunction, Request, Response } from "express";
+import expressRateLimit from "express-rate-limit";
+import striptags from "striptags";
+import { ClientError } from "../models/client-error";
 import { StatusCode } from "../models/enums";
 import { cyber } from "../utils/cyber";
-import { ClientError } from "../models/client-error";
-import striptags from "striptags";
-import expressRateLimit from "express-rate-limit"
-import { Express } from "express";
 import helmet from "helmet";
-class SecurityMiddleWare {
-    public blacklist(request: Request, response: Response, next: NextFunction): void {
-        const denyIpAddress = ["24.22.11.42, ", "24.42.55.1.1",];
+
+class SecurityMiddleware {
+
+    // Short Circuit Middleware:
+    public blackList(request: Request, response: Response, next: NextFunction): void {
+        const denyIpAddresses = ["11.22.33.44", "100.200.3.5"];
         const userIp = request.ip?.toString()!;
-
-
-        if (denyIpAddress.includes(userIp)) {
+        if (denyIpAddresses.includes(userIp)) {
             const message = "You are black listed!";
-            response.status(StatusCode.Forbidden).json({ message })
+            response.status(StatusCode.Forbidden).json({ message });
         }
         else {
             next();
         }
     }
-    // Verfiy logged-in:
-    public verfiyLoggedIn(request: Request, response: Response, next: NextFunction): void {
-        // Extract token:
-        const authorization = request.headers.authorization; // Bearer the token
+
+    // Verify logged-in:
+    public verifyLoggedIn(request: Request, response: Response, next: NextFunction): void {
+
+        // Extract token: 
+        const authorization = request.headers.authorization; // "Bearer the-token..."
         const token = authorization?.substring(7);
 
-        // if token is legal:
+        // If token is legal:
         if (cyber.verifyToken(token!)) {
             next();
         }
         else {
-            const err = new ClientError(StatusCode.Unauthorized, "You're not logged in");
+            const err = new ClientError(StatusCode.Unauthorized, "You are not logged in.");
             next(err); // Go to catchAll middleware.
         }
-
-
     }
 
+    // Verify admin:
     public verifyAdmin(request: Request, response: Response, next: NextFunction): void {
-        // Extract token:
-        const authorization = request.headers.authorization; // Bearer the token
+
+        // Extract token: 
+        const authorization = request.headers.authorization; // "Bearer the-token..."
         const token = authorization?.substring(7);
 
-        // if token is legal:
+        // If token is legal and user is admin:
         if (cyber.verifyAdmin(token!)) {
             next();
         }
         else {
-            const err = new ClientError(StatusCode.Unauthorized, "You dont have permition to do that.");
+            const err = new ClientError(StatusCode.Forbidden, "You are not authorized.");
             next(err); // Go to catchAll middleware.
         }
-        // Prevent XSS attack:
-
     }
+
+    // Prevent XSS attack:
     public preventXss(request: Request, response: Response, next: NextFunction): void {
+
         // Run on body object:
         for (const prop in request.body) {
-            // Take prop value:
+
+            // Take prop value: 
             const value = request.body[prop];
+
+            // If string: 
             if (typeof value === "string") {
-                // Remove tags
+
+                // Remove tags:
                 request.body[prop] = striptags(value);
             }
         }
-        next(); // Continue:
+
+        // Continue:
+        next();
     }
+
+    // Prevent DoS attack:
     public registerRateLimit(server: Express): void {
-        // Prevent Dos attack:
+
+        // General rate-limit:
         server.use(expressRateLimit({
-            windowMs: 1000, // Time window in miliiseconds.
-            limit: 5, // How many requests allowed in that window.
-            skip: (request: Request) => request.path.startsWith("/api/products/images/") // Skips the limit when requesting the images.
+            windowMs: 1000, // Time window in milliseconds.
+            limit: 20, // How many requests allowed in that window.
+            skip: (request: Request) => request.path.startsWith("/api/products/images/") // Skip when requesting images
         }));
 
-
-        server.use(("/api/products/images/"), expressRateLimit({ // Only images
-            windowMs: 1000, // Time window in miliiseconds.
+        // Images rate-limit:
+        server.use("/api/products/images/", expressRateLimit({ // Only images.
+            windowMs: 1000, // Time window in milliseconds.
             limit: 200, // How many requests allowed in that window.
         }));
     }
-    // Use Helemt to protect header attacks:
 
+    // Use helmet to protect header attacks: 
     public headerProtection(server: Express): void {
         server.use(helmet({
-            crossOriginResourcePolicy: {policy: "same-site" } // Enable CORS on images.
+            crossOriginResourcePolicy: { policy: "same-site" } // Enable CORS on images.
         }));
-       
     }
+
 }
-export const securityMiddleWare = new SecurityMiddleWare();
+
+export const securityMiddleware = new SecurityMiddleware();

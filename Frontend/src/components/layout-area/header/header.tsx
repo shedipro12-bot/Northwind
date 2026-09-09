@@ -6,7 +6,8 @@ export function Header() {
         <div className="Header">
 
             <AuthMenu />
-            <h1>Northwind Traders</h1>
+
+			<h1>Northwind Traders</h1>
 
         </div>
     );

@@ -1,11 +1,14 @@
-import dotenv from "dotenv";
+import dotenv from "dotenv"; // npm install dotenv
+
 // Loads .env values into: process.env object:
-dotenv.config({ quiet: true })
+dotenv.config({ quiet: true });
+
 class AppConfig {
-    public readonly port = 4000;
+
     public readonly environment = process.env.ENVIRONMENT!;
     public readonly isDevelopment = this.environment === "development";
     public readonly isProduction = this.environment === "production";
+    public readonly port = 4000;
     public readonly mysqlHost = process.env.MYSQL_HOST!;
     public readonly mysqlUser = process.env.MYSQL_USER!;
     public readonly mysqlPassword = process.env.MYSQL_PASSWORD!;
@@ -14,6 +17,11 @@ class AppConfig {
     public readonly productImagesBaseUrl = process.env.PRODUCT_IMAGES_BASE_URL!;
     public readonly hashSalt = process.env.HASH_SALT!;
     public readonly recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY!;
+    public readonly mongodbConnectionString = process.env.MONGODB_CONNECTION_STRING!;
+    public readonly openaiApiKey = process.env.OPENAI_API_KEY!;
+    public readonly openaiModel = "gpt-5";
+    public readonly openaiUrl = "https://api.openai.com/v1/chat/completions";
+
 }
 
 export const appConfig = new AppConfig();

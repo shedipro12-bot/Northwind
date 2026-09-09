@@ -2,75 +2,92 @@ import { UserModel } from "../models/user-model";
 import jwt, { SignOptions } from "jsonwebtoken";
 import { appConfig } from "./app-config";
 import { Role } from "../models/enums";
-import crypto from "crypto"
+import crypto from "crypto";
+
 class Cyber {
-    // Has password:
+
+    // Hash password:
     public hash(plainText: string): string {
+
         // Create hash without salt:
         // const hashText = crypto.createHash("sha512").update(plainText).digest("hex");
 
         // Create hash with salt (HMAC: Hash-based Message Authentication Code):
-        const hashText = crypto.createHmac("sha512",appConfig.hashSalt).update(plainText).digest("hex");
+        const hashText = crypto.createHmac("sha512", appConfig.hashSalt).update(plainText).digest("hex");
 
-
-
+        // return hashed password:
         return hashText;
     }
- 
 
+    // Generate new token:
     public generateToken(user: UserModel): string {
 
-        //Remove password: 
+        // Remove password:
         user.password = undefined!;
-        // Create payload:
+
+        // Create payload: 
         const payload = { user };
-        // Create options:
+
+        // Create options: 
         const options: SignOptions = { expiresIn: "3h" };
 
-        // Generate token:
+        // Generate token: 
         const token = jwt.sign(payload, appConfig.jwtSecret!, options);
+
+        // Return token:
         return token;
     }
 
-    // Verify Token:
+    // Verify token:
     public verifyToken(token: string): boolean {
-        // if no token found:
+
         try {
 
+            // If no token:
             if (!token) {
-                return false
-
+                return false;
             }
-            // verify
-            // Valid token
-            jwt.verify(token, appConfig.jwtSecret!);
-            // Extract payload:
-            // Extract user: 
-            const payload = jwt.decode(token) as { user: UserModel }
-            const user = payload.user;
-            //if user is not admin deny access:
-            if (user.roleId !== Role.Admin) return false;
-            return true
-        }
-        catch (err: any) {
-            return false; // Token illegal
-        }
-    }
-    public verifyAdmin(token: string): boolean {
-        // if no token found:
-        try {
 
-            if (!token) {
-                return false
-
-            }
-            // verify
+            // Verify token:
             jwt.verify(token, appConfig.jwtSecret!);
-            // Valid token
+
+            // All is good - token is legal:
             return true;
         }
         catch (err: any) {
-            return false; // Token illegal
+            return false; // Token not legal.
+        }
+    }
+
+    // Verify admin:
+    public verifyAdmin(token: string): boolean {
+
+        try {
+
+            // If no token:
+            if (!token) {
+                return false;
+            }
+
+            // Verify token:
+            jwt.verify(token, appConfig.jwtSecret!);
+
+            // Extract payload:
+            const payload = jwt.decode(token) as { user: UserModel };
+
+            // Extract user: 
+            const user = payload.user;
+
+            // If user is not admin:
+            if(user.roleId !== Role.Admin) {
+                return false;
+            }
+
+            // All is good - token is legal, and user is admin:
+            return true;
+        }
+        catch (err: any) {
+            return false; // Token not legal.
         }
     }
 
